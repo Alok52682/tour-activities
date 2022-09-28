@@ -1,37 +1,44 @@
 [
     {
+        "id": 1,
         "bannerImg": "https://blog.flyticket.com.bd/wp-content/uploads/2020/05/image005.jpg",
         "place": "Srimangal",
         "about": "Sreemangal is a city in Sylhet Division in Bangladesh. Sreemangal is situated in Moulvibazar district in sylhet division. Sreemangal is an Upazila. It is famous for tea garden. Rain all time occurs here.",
         "stay": 12
     },
     {
+        "id": 2,
         "bannerImg": "https://blog.flyticket.com.bd/wp-content/uploads/2020/05/image017.jpg",
         "place": "Bisanakandi",
         "about": "Bisanakandi is situated at Bangladesh-India border in Sylhet. It is a landscape beauty among gardens and hills. Bichanakandi is a village situated in Rustompur Union under Guainghat Upazilla. This is where many layers of the Khasi mountain meet at a single point from both sides.",
         "stay": 6
     },
     {
+        "id": 3,
         "bannerImg": "https://blog.flyticket.com.bd/wp-content/uploads/2020/05/image019.jpg",
         "place": "Jaflong",
         "about": "Jaflong is a hill station and tourist destination in the Division of Sylhet, Bangladesh. It is located in Gowainghat Upazila of Sylhet District and situated at the border between Bangladesh and the Indian state of Meghalaya, overshadowed by subtropical mountains and rainforests.",
         "stay": 6
     },
     {
+        "id": 4,
         "bannerImg": "https://blog.flyticket.com.bd/wp-content/uploads/2020/05/image021.jpg",
         "place": "Ratatgul Swamp Forest",
         "about": "Ratatgul Swamp Forest known as the Sundarbans of Sylhet. This only swamp forest in Bangladesh is located 26 kilometres (16 mi) far from Sylhet. The forest's name comes from the word, 'Rata' or 'Pati' tree, used by the locals of Sylhet.",
         "stay": 3
     },
     {
+        "id": 5,
         "bannerImg": "https://blog.flyticket.com.bd/wp-content/uploads/2020/05/image024.jpg",
         "place": "Lalakhal",
         "about": "Lalakhal is one of the most attractive tourist spots in Sylhet. Lalakhal is a wide canal located Sharee River near the Tamabil road. The river is not much deep and it is one of the sources of sand in Sylhet. The focal point of the canal is water. The water has a variety of colors blue, green, clear water at different points.",
         "stay": 2
     },
     {
+        "id": 6,
         "bannerImg": "https://blog.flyticket.com.bd/wp-content/uploads/2020/05/image034.jpg",
         "place": "Sajek Valley",
-        "about": "Sajek Tripuri Valley is one of the most popular tourist spots in Bangladesh situated among the hills of the Kasalong range of mountains in Sajek union, Baghaichhari Upazila in Rangamati District."
+        "about": "Sajek Tripuri Valley is one of the most popular tourist spots in Bangladesh situated among the hills of the Kasalong range of mountains in Sajek union, Baghaichhari Upazila in Rangamati District.",
+        "stay": 12
     }
 ]
