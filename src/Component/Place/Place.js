@@ -10,7 +10,7 @@ const Place = (props) => {
                 <p>{about}</p>
                 <p className='font-bold'>Stay : {stay} hour</p>
                 <div className="card-actions justify-end">
-                    <button className="btn bg-green-500 border-0">Add to list</button>
+                    <button className="btn bg-green-500 border-0 w-full">Add</button>
                 </div>
             </div>
         </div>
