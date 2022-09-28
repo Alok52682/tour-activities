@@ -1,10 +1,10 @@
 import './App.css';
-import Activities from './Component/MainBody/Activities';
+import Main from './Component/MainBody/Main';
 
 function App() {
   return (
     <div>
-      <Activities></Activities>
+      <Main></Main>
     </div>
   );
 }

@@ -2,7 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 
-const SelfCompo = () => {
+const SelfCompo = (props) => {
     return (
         <div className='sticky top-10 w-10/12 mx-auto'>
             <div className='flex gap-3 bg-white p-3 rounded-lg my-10'>
@@ -48,7 +48,7 @@ const SelfCompo = () => {
                 <div>
                     <h1 className='text-2xl my-5 font-semibold'>Travel Detail</h1>
                     <div className='bg-white p-3 rounded-lg text-xl text-slate-500 mb-5'>
-                        <h1>Total Travel Time : <span>0</span> Hour</h1>
+                        <h1>Total Travel Time : {props.time} Hour</h1>
                     </div>
                     <div className='bg-white p-3 rounded-lg text-xl text-slate-500 mb-10'>
                         <h1>Break Time : <span>0</span> Hour</h1>
