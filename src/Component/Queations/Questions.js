@@ -2,7 +2,7 @@ import React from 'react';
 
 const Questions = () => {
     return (
-        <div>
+        <div className='mb-10'>
             <h2 className='text-green-500 text-4xl font-bold mb-5'># Frequently Asked Questions</h2>
             {/* Question number-1 */}
             <div className="collapse collapse-arrow border border-slate-300 bg-slate-200 rounded-box">
