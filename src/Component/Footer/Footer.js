@@ -4,8 +4,8 @@ import { faCopyright } from '@fortawesome/free-solid-svg-icons'
 
 const Footer = () => {
     return (
-        <div className='h-14 bg-gray-400 sticky bottom-0'>
-            <small className='absolute bottom-2/4 left-2/4 font-bold'>copyright <FontAwesomeIcon icon={faCopyright} /> 2029 </small>
+        <div className='h-14 bg-gray-400 sm:sticky bottom-0 text-center'>
+            <small className='font-bold'>copyright <FontAwesomeIcon icon={faCopyright} /> 2029 </small>
         </div>
     );
 };
