@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faRoute } from '@fortawesome/free-solid-svg-icons'
 import Place from '../Place/Place';
 import SelfCompo from '../Self-component/SelfCompo';
+import Questions from '../Queations/Questions';
 
 const Main = () => {
     const [places, setPlaces] = useState([]);
@@ -29,6 +30,7 @@ const Main = () => {
                         places.map(place => <Place click={pickStayTime} key={place.id} place={place} />)
                     }
                 </div>
+                <Questions></Questions>
             </div>
             <div className='bg-slate-200'>
                 <SelfCompo time={totalTime}></SelfCompo>

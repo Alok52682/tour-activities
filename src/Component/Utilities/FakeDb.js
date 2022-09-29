@@ -1,4 +1,3 @@
-import React from 'react';
 
 const AddtoDb = (time) => {
     localStorage.setItem('Break Time', JSON.stringify(time))

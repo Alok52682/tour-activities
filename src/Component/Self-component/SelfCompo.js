@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import { AddtoDb, getTime } from '../Utilities/FakeDb';
+import ActivityComplete from './ActivityComplete';
 
 const SelfCompo = (props) => {
     const [breakTime, setBreakTime] = useState(0);
@@ -56,7 +57,7 @@ const SelfCompo = (props) => {
                         <h1>Break Time : {breakTime} Hour</h1>
                     </div>
                 </div>
-                <button className="btn bg-green-500 border-0 w-full mb-10">Activity Completed</button>
+                <ActivityComplete />
             </div>
         </div>
     );
