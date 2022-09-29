@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faRoute } from '@fortawesome/free-solid-svg-icons'
 import Place from '../Place/Place';
-import SelfCompo from '../Self-component/SelfCompo';
+import Sideber from '../Self-component/Sideber';
 import Questions from '../Queations/Questions';
 
 const Main = () => {
@@ -30,10 +30,12 @@ const Main = () => {
                         places.map(place => <Place click={pickStayTime} key={place.id} place={place} />)
                     }
                 </div>
+                {/* #FAQ unite added */}
                 <Questions></Questions>
             </div>
             <div className='bg-slate-200'>
-                <SelfCompo time={totalTime}></SelfCompo>
+                {/* Sideber component added */}
+                <Sideber time={totalTime} />
             </div>
         </div>
     );

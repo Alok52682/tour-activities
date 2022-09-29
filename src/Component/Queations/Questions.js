@@ -4,6 +4,7 @@ const Questions = () => {
     return (
         <div>
             <h2 className='text-green-500 text-4xl font-bold mb-5'># Frequently Asked Questions</h2>
+            {/* Question number-1 */}
             <div className="collapse collapse-arrow border border-slate-300 bg-slate-200 rounded-box">
                 <input type="checkbox" className="peer" />
                 <div className="collapse-title text-xl font-bold">
@@ -16,6 +17,8 @@ const Questions = () => {
 
                 </div>
             </div>
+
+            {/* Question number-2 */}
             <div className="collapse collapse-arrow border border-slate-300 bg-slate-200 rounded-box">
                 <input type="checkbox" className="peer" />
                 <div className="collapse-title text-xl font-bold">
@@ -39,6 +42,8 @@ const Questions = () => {
                     </div>
                 </div>
             </div>
+
+            {/* Question number-3 */}
             <div className="collapse collapse-arrow border border-slate-300 bg-slate-200 rounded-box">
                 <input type="checkbox" className="peer" />
                 <div className="collapse-title text-xl font-bold">

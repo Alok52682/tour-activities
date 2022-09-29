@@ -4,14 +4,16 @@ import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import { AddtoDb, getTime } from '../Utilities/FakeDb';
 import ActivityComplete from './ActivityComplete';
 
-const SelfCompo = (props) => {
+const Sideber = (props) => {
     const [breakTime, setBreakTime] = useState(0);
 
     useEffect(() => {
+        // set breaktime getting clicked time from local storage
         const time = getTime();
         setBreakTime(time);
     }, [breakTime])
 
+    // add time to break time unit by click handler
     const addBreak = (value) => {
         AddtoDb(value)
         setBreakTime(getTime());
@@ -57,10 +59,11 @@ const SelfCompo = (props) => {
                         <h1>Break Time : {breakTime ? breakTime : 0} Hour</h1>
                     </div>
                 </div>
+                {/* Button toaster Component added */}
                 <ActivityComplete />
             </div>
         </div>
     );
 };
 
-export default SelfCompo;
+export default Sideber;
