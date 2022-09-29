@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faRoute } from '@fortawesome/free-solid-svg-icons'
 import Place from '../Place/Place';
-import Sideber from '../Self-component/Sideber';
+import Sideber from '../Sideber/Sideber';
 import Questions from '../Queations/Questions';
 
 const Main = () => {

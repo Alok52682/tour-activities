@@ -36,6 +36,27 @@
     },
     {
         "id": 6,
+        "bannerImg": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTTAOQoMlSwcCodA6oCZFg0KkLji0x21Fx4WZD39LmNCk-eDpbOUGV2KgDBpUsXrgKLV8ZGNi9TYeoS55lq7bTu_A",
+        "place": "Sompur Mahavihara",
+        "about": "Somapura Mahavihara in Paharpur, Badalgachhi, Naogaon, Bangladesh is among the best known Buddhist viharas, monasteries, in the Indian Subcontinent and is one of the most important archaeological sites in the country. It is also one of the earliest sites of Bengal, where significant numbers of Hindu statues were found.",
+        "stay": 4
+    },
+    {
+        "id": 7,
+        "bannerImg": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcTurtUTTylc_qfsiQxLRjmuQPSCz-lq05lb3vOW8OgMy63RwkbkcqJTW3oLmGmLz-FJENBRVk7z_a95iKCpzuCyoQ",
+        "place": "Patenga Sea Beach",
+        "about": "Patenga is a sea beach of the Bay of Bengal, located 14 kilometres south from the port city of Chattogram, Bangladesh. It is near to the mouth of the Karnaphuli River. The beach is very close to the Bangladesh Naval Academy of the Bangladesh Navy and Shah Amanat International Airport.",
+        "stay": 5
+    },
+    {
+        "id": 8,
+        "bannerImg": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcTV9GWrI3kOy3clZpECTaiJ6-SDOPsEAkrVwXr1Jn9Le7acMLxcb0UfH6zlVwbXOv-QhaE9L3y7icqR8vSXKka9zA",
+        "place": "Dhakeshwari Temple",
+        "about": "Dhakeshwari National Temple is a Hindu temple in Dhaka, Bangladesh. It is state-owned, giving it the distinction of being Bangladesh's 'National Temple'. The name 'Dhakeshwari' means 'Goddess of Dhaka'. It is also the largest Hindu temple in Bangladesh.",
+        "stay": 2
+    },
+    {
+        "id": 9,
         "bannerImg": "https://blog.flyticket.com.bd/wp-content/uploads/2020/05/image034.jpg",
         "place": "Sajek Valley",
         "about": "Sajek Tripuri Valley is one of the most popular tourist spots in Bangladesh situated among the hills of the Kasalong range of mountains in Sajek union, Baghaichhari Upazila in Rangamati District.",
