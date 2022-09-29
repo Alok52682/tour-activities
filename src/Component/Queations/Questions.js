@@ -4,7 +4,7 @@ const Questions = () => {
     return (
         <div>
             <h2 className='text-green-500 text-4xl font-bold mb-5'># Frequently Asked Questions</h2>
-            <div className="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box">
+            <div className="collapse collapse-arrow border border-slate-300 bg-slate-200 rounded-box">
                 <input type="checkbox" className="peer" />
                 <div className="collapse-title text-xl font-bold">
                     How Does React Work?
@@ -16,7 +16,7 @@ const Questions = () => {
 
                 </div>
             </div>
-            <div className="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box">
+            <div className="collapse collapse-arrow border border-slate-300 bg-slate-200 rounded-box">
                 <input type="checkbox" className="peer" />
                 <div className="collapse-title text-xl font-bold">
                     Difference between props and state
@@ -39,7 +39,7 @@ const Questions = () => {
                     </div>
                 </div>
             </div>
-            <div className="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box">
+            <div className="collapse collapse-arrow border border-slate-300 bg-slate-200 rounded-box">
                 <input type="checkbox" className="peer" />
                 <div className="collapse-title text-xl font-bold">
                     What is useEffect used for other than loading data?

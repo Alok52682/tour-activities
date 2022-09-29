@@ -17,7 +17,7 @@ const SelfCompo = (props) => {
         setBreakTime(getTime());
     }
     return (
-        <div className='sticky top-10 w-10/12 mx-auto'>
+        <div className='sticky top-10 w-11/12 mx-auto'>
             <div className='flex gap-3 bg-white p-3 rounded-lg my-10'>
                 <img src="https://images.squarespace-cdn.com/content/v1/5cf0d08d5fc69d000172462a/1636100249202-5NY98C6ASRIFFPO9GZTU/Tom+Professional+Business+Headshot.jpg?format=500w" className='h-12 w-12 rounded-full' alt="" />
                 <div>
@@ -25,17 +25,17 @@ const SelfCompo = (props) => {
                     <p><FontAwesomeIcon icon={faLocationDot} /> Toronto,Canada</p>
                 </div>
             </div>
-            <div className='flex justify-between bg-white p-3 rounded-lg mb-10'>
+            <div className='flex justify-between bg-white p-3 rounded-lg gap-2 mb-10'>
                 <div>
-                    <h1 className='text-4xl font-bold text-slate-600'>59<span className='text-lg font-semibold text-slate-400'>kg</span></h1>
+                    <h1 className='text-4xl sm:text-2xl md:text-4xl font-bold text-slate-600'>59<span className='text-lg sm:text-sm md:text-lg font-semibold text-slate-400'>kg</span></h1>
                     <h2 className='text-xl'>Weight</h2>
                 </div>
                 <div>
-                    <h1 className='text-4xl font-bold text-slate-600'>6.6</h1>
+                    <h1 className='text-4xl sm:text-2xl md:text-4xl font-bold text-slate-600'>6.6</h1>
                     <h2 className='text-xl'>Height</h2>
                 </div>
                 <div>
-                    <h1 className='text-4xl font-bold text-slate-600'>22<span className='text-lg text-slate-400'>yrs</span></h1>
+                    <h1 className='text-4xl sm:text-2xl md:text-4xl font-bold text-slate-600'>22<span className='text-lg sm:text-sm md:text-lg font-semibold text-slate-400'>yrs</span></h1>
                     <h2 className='text-xl'>Age</h2>
                 </div>
             </div>
@@ -54,7 +54,7 @@ const SelfCompo = (props) => {
                         <h1>Total Travel Time : {props.time} Hour</h1>
                     </div>
                     <div className='bg-white p-3 rounded-lg text-xl text-slate-500 mb-10'>
-                        <h1>Break Time : {breakTime} Hour</h1>
+                        <h1>Break Time : {breakTime ? breakTime : 0} Hour</h1>
                     </div>
                 </div>
                 <ActivityComplete />

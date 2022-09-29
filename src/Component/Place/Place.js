@@ -3,7 +3,7 @@ import React from 'react';
 const Place = (props) => {
     const { bannerImg, about, place, stay } = props.place;
     return (
-        <div className="card card-compact bg-base-100 shadow-xl">
+        <div className="card card-compact bg-slate-200 shadow-xl">
             <figure><img src={bannerImg} alt="Shoes" /></figure>
             <div className="card-body">
                 <h2 className="card-title">{place}</h2>
