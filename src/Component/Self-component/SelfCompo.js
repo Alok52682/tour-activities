@@ -42,11 +42,11 @@ const SelfCompo = (props) => {
             <div>
                 <h1 className='text-xl mb-5 font-semibold'>Add A Break</h1>
                 <div className='flex justify-around w-full bg-white p-3 rounded-lg'>
-                    <button onClick={() => addBreak(3)} className="h-10 w-10 text-xl bg-slate-400 text-white p-2 rounded-lg">3h</button>
-                    <button onClick={() => addBreak(4)} className="h-10 w-10 text-xl bg-slate-400 text-white p-2 rounded-lg">4h</button>
-                    <button onClick={() => addBreak(5)} className="h-10 w-10 text-xl bg-slate-400 text-white p-2 rounded-lg">5h</button>
-                    <button onClick={() => addBreak(6)} className="h-10 w-10 text-xl bg-slate-400 text-white p-2 rounded-lg">6h</button>
-                    <button onClick={() => addBreak(7)} className="h-10 w-10 text-xl bg-slate-400 text-white p-2 rounded-lg">7h</button>
+                    <button onClick={() => addBreak(3)} className="focus:bg-green-500 h-10 w-10 text-xl bg-slate-400 text-white p-2 rounded-lg">3h</button>
+                    <button onClick={() => addBreak(4)} className="focus:bg-green-500 h-10 w-10 text-xl bg-slate-400 text-white p-2 rounded-lg">4h</button>
+                    <button onClick={() => addBreak(5)} className="focus:bg-green-500 h-10 w-10 text-xl bg-slate-400 text-white p-2 rounded-lg">5h</button>
+                    <button onClick={() => addBreak(6)} className="focus:bg-green-500 h-10 w-10 text-xl bg-slate-400 text-white p-2 rounded-lg">6h</button>
+                    <button onClick={() => addBreak(7)} className="focus:bg-green-500 h-10 w-10 text-xl bg-slate-400 text-white p-2 rounded-lg">7h</button>
                 </div>
                 <div>
                     <h1 className='text-2xl my-5 font-semibold'>Travel Detail</h1>
