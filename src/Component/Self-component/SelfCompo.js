@@ -1,8 +1,20 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
+import { AddtoDb, getTime } from '../Utilities/FakeDb';
 
 const SelfCompo = (props) => {
+    const [breakTime, setBreakTime] = useState(0);
+
+    useEffect(() => {
+        const time = getTime();
+        setBreakTime(time);
+    }, [breakTime])
+
+    const addBreak = (value) => {
+        AddtoDb(value)
+        setBreakTime(getTime());
+    }
     return (
         <div className='sticky top-10 w-10/12 mx-auto'>
             <div className='flex gap-3 bg-white p-3 rounded-lg my-10'>
@@ -29,21 +41,11 @@ const SelfCompo = (props) => {
             <div>
                 <h1 className='text-xl mb-5 font-semibold'>Add A Break</h1>
                 <div className='flex justify-around w-full bg-white p-3 rounded-lg'>
-                    <div className='h-10 w-10 text-xl bg-slate-400 text-white p-2 rounded-lg'>
-                        <a href="/" className='text-centet'>1h</a>
-                    </div>
-                    <div className='h-10 w-10 text-xl bg-slate-400 text-white p-2 rounded-lg'>
-                        <a href="/" className='text-centet'>2h</a>
-                    </div>
-                    <div className='h-10 w-10 text-xl bg-slate-400 text-white p-2 rounded-lg'>
-                        <a href="/" className='text-centet'>3h</a>
-                    </div>
-                    <div className='h-10 w-10 text-xl bg-slate-400 text-white p-2 rounded-lg'>
-                        <a href="/" className='text-centet'>4h</a>
-                    </div>
-                    <div className='h-10 w-10 text-xl bg-slate-400 text-white p-2 rounded-lg'>
-                        <a href="/" className='text-centet'>5h</a>
-                    </div>
+                    <button onClick={() => addBreak(3)} className="h-10 w-10 text-xl bg-slate-400 text-white p-2 rounded-lg">3h</button>
+                    <button onClick={() => addBreak(4)} className="h-10 w-10 text-xl bg-slate-400 text-white p-2 rounded-lg">4h</button>
+                    <button onClick={() => addBreak(5)} className="h-10 w-10 text-xl bg-slate-400 text-white p-2 rounded-lg">5h</button>
+                    <button onClick={() => addBreak(6)} className="h-10 w-10 text-xl bg-slate-400 text-white p-2 rounded-lg">6h</button>
+                    <button onClick={() => addBreak(7)} className="h-10 w-10 text-xl bg-slate-400 text-white p-2 rounded-lg">7h</button>
                 </div>
                 <div>
                     <h1 className='text-2xl my-5 font-semibold'>Travel Detail</h1>
@@ -51,7 +53,7 @@ const SelfCompo = (props) => {
                         <h1>Total Travel Time : {props.time} Hour</h1>
                     </div>
                     <div className='bg-white p-3 rounded-lg text-xl text-slate-500 mb-10'>
-                        <h1>Break Time : <span>0</span> Hour</h1>
+                        <h1>Break Time : {breakTime} Hour</h1>
                     </div>
                 </div>
                 <button className="btn bg-green-500 border-0 w-full mb-10">Activity Completed</button>

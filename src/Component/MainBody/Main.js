@@ -17,7 +17,6 @@ const Main = () => {
 
     const pickStayTime = (time) => {
         setTotalTime(totalTime + time)
-        console.log(totalTime);
     }
 
     return (
